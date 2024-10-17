@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { useFormState } from "react-dom";
 import createUser from "@/app/actions/createUser";
+import { toast } from "sonner";
 
 const RegisterPage = () => {
   const [state, formAction] = useFormState(createUser, {});
