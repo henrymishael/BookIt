@@ -8,8 +8,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "brand-background": "#E1FEEA",
+        "brand-accent": "#04A936",
+        "brand-button": "#4CFB80",
+        "brand-border": "#808080/20",
       },
     },
   },

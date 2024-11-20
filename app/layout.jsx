@@ -1,4 +1,4 @@
-import { Syne } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import Header from "@/components/header";
 import "@/assets/styles/globals.css";
 import Footer from "@/components/footer";
@@ -7,7 +7,7 @@ import AuthWrapper from "@/components/AuthWrapper";
 // import { ToastContainer } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
 
-const syne = Syne({ subsets: ["latin"] });
+const syne = Quicksand({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Bookit App | Book a room",
