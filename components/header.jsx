@@ -48,7 +48,7 @@ const Header = () => {
                         href='/'
                         className='rounded-md px-3 py-2 text-sm font-medium text-gray-800 hover:bg-gray-700 hover:text-white'
                       >
-                        Rooms
+                        Cribs
                       </Link>
                       <Link
                         href='/bookings'
@@ -57,10 +57,10 @@ const Header = () => {
                         Bookings
                       </Link>
                       <Link
-                        href='/rooms/add'
+                        href='/cribs/add'
                         className='rounded-md px-3 py-2 text-sm font-medium text-gray-800 hover:bg-gray-700 hover:text-white'
                       >
-                        Add Room
+                        Add Crib
                       </Link>
                     </>
                   )}
@@ -90,8 +90,8 @@ const Header = () => {
 
                 {isAuthenticated && (
                   <>
-                    <Link href='/rooms/my'>
-                      <FaBuilding className='inline mr-1' /> My Rooms
+                    <Link href='/cribs/my'>
+                      <FaBuilding className='inline mr-1' /> My Cribs
                     </Link>
                     <button
                       onClick={handleLogOut}
@@ -116,7 +116,7 @@ const Header = () => {
                   href='/'
                   className='block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-700 hover:text-white'
                 >
-                  Rooms
+                  Cribs
                 </Link>
                 <Link
                   href='/bookings'
@@ -125,10 +125,10 @@ const Header = () => {
                   Bookings
                 </Link>
                 <Link
-                  href='/rooms/add'
+                  href='/cribs/add'
                   className='block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-700 hover:text-white'
                 >
-                  Add Room
+                  Add Crib
                 </Link>
               </>
             )}

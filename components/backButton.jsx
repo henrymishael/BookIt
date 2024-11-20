@@ -7,7 +7,7 @@ const BackButton = () => {
   return (
     <div className='flex cursor-pointer items-center text-gray-600 hover:text-gray-800 mb-4'>
       <FaChevronLeft onClick={router.back} className='inline mr-1' />
-      <span className='ml-2'>Back to Rooms</span>
+      <span className='ml-2'>Back</span>
     </div>
   );
 };

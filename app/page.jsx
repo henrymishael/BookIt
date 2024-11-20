@@ -98,7 +98,7 @@ export default async function Home() {
         </div>
         {/*} <ListingSection /> */}
 
-        <Heading title={"Available Properties"} />
+        <Heading title={"Available Cribs"} />
         {rooms.length > 0 ? (
           rooms.map((room) => <RoomCard key={room?.$id} room={room} />)
         ) : (

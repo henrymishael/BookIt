@@ -29,14 +29,14 @@ const RoomCard = ({ room }) => {
             {room.availability}
           </p>
           <p className='text-sm text-gray-600'>
-            <span className='font-semibold text-gray-800'> Price: </span>$
-            {room.price_per_hour}/hour
+            <span className='font-semibold text-gray-800'> Price: </span>₦
+            {room.price_per_hour} million
           </p>
         </div>
       </div>
       <div className='flex flex-col sm:flex-row w-full sm:w-auto sm:space-x-2 mt-2 sm:mt-0'>
         <Link
-          href={`/rooms/${room.$id}`}
+          href={`/cribs/${room.$id}`}
           className=' bg-brand-accent text-white px-4 py-2 rounded mb-2 sm:mb-0 w-full sm:w-auto text-center hover:bg-brand-button'
         >
           View Room

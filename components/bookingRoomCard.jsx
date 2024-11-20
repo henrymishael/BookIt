@@ -40,7 +40,7 @@ const BookingRoomCard = ({ booking }) => {
       </div>
       <div className='flex flex-col sm:flex-row w-full sm:w-auto sm:space-x-2 mt-2 sm:mt-0'>
         <Link
-          href={`/rooms/${booking.room_id.$id}`}
+          href={`/cribs/${booking.room_id.$id}`}
           className='bg-blue-500 text-white px-4 py-2 rounded mb-2 sm:mb-0 w-full sm:w-auto text-center hover:bg-blue-700'
         >
           View Room

@@ -93,14 +93,14 @@ const RegisterPage = () => {
           <div className='flex flex-col gap-5'>
             <button
               type='submit'
-              className='bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700'
+              className=' text-white bg-brand-accent px-4 py-2 rounded hover:bg-brand-button'
             >
               Register
             </button>
 
             <p>
               Have an account?{" "}
-              <Link href='/login' className='text-blue-500'>
+              <Link href='/login' className='text-brand-accent'>
                 Login
               </Link>
             </p>

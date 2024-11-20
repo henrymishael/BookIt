@@ -22,7 +22,7 @@ const AddRoomPage = () => {
   }, [state]);
   return (
     <div>
-      <Heading title={"Add a Room"} />
+      <Heading title={"Add a Crib"} />
       <div className='bg-white shadow-lg rounded-lg p-6 w-full'>
         <form action={formAction}>
           <div className='mb-4'>

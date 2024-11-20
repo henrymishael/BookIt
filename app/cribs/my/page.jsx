@@ -7,7 +7,7 @@ const MyRoomsPage = async () => {
 
   return (
     <>
-      <Heading title={"My Room Listings"} />
+      <Heading title={"My Cribs Listings"} />
       {myRooms.length > 0 ? (
         myRooms.map((room) => <MyRoomCard key={room.$id} room={room} />)
       ) : (
